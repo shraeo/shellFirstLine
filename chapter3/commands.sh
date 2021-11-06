@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# section 3.2
+# 3.2
 
 apt list --installed
 apt list --installed | less -N
@@ -36,7 +36,7 @@ dpkg -S $(which ls)
 sudo dpkg -r googler
 dpkg -l googler
 
-# section 3.3
+# 3.3
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 sudo apt install build-essential
@@ -56,7 +56,7 @@ brew update
 # 下面是卸载 homebrew 命令，如果不想卸载，请跳过此命令，或者在确认是否卸载时输入 N
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh)"
 
-# section 3.4
+# 3.4
 
 echo 'echo "hello world"' > hw
 cat hw
@@ -119,7 +119,7 @@ trans -t en 精彩
 which hw
 sudo rm /usr/local/bin/hw
 
-# section 3.5
+# 3.5
 
 date
 man date
@@ -146,7 +146,7 @@ gcc -o hello hw.c && ./hello
 EOF
 ls hw.c | entr bash comp_run
 
-# section 3.6
+# 3.6
 
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.8.0
 echo -e '\n. $HOME/.asdf/asdf.sh' >> ~/.bashrc

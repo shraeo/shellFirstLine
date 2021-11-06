@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# section 2.1
+# 2.1
 
 pwd
 ls
@@ -12,14 +12,14 @@ cd bin
 ls
 ls -l ls
 
-# section 2.2
+# 2.2
 
 ls -l /etc
 cat /etc/sudoers
 groups root achao
 sudo cat /etc/sudoers
 
-# section 2.3
+# 2.3
 
 cat /etc/shells
 cat /etc/ssh/ssh_config
@@ -37,7 +37,7 @@ tail ~/file_list.txt
 wc -l ~/file_list.txt
 ls /bin | wc -l
 
-# section 2.4
+# 2.4
 
 cd ~
 mkdir demo
@@ -52,7 +52,7 @@ vi demo/afile.txt
 
 cat demo/afile.txt
 
-# section 2.5
+# 2.5
 
 cd demo
 cp afile.txt hw.sh
@@ -66,7 +66,7 @@ mv demo2 bak
 ls
 ls backup
 
-# section 2.6
+# 2.6
 
 rm demo/afile.txt
 rm -r bak
